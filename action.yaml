@@ -10,6 +10,6 @@ outputs:
     description: 'The time we greeted you'
 runs:
   using: 'docker'
-  image: 'docker://gp42/warpd-builder'
+  image: 'docker://gp42/warpd-builder:main'
   args:
     - ${{ inputs.who-to-greet }}
